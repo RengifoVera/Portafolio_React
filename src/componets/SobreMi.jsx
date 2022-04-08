@@ -36,19 +36,19 @@ export function SobreMi() {
                   <h2 data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000">Habilidades</h2>
                   <Row>
                     <h3 data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1100">Programacion</h3>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400" src={bash} alt="Bash" /> </Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="600" src={js} alt="Javascript" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="800" src={py} alt="Python" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000" src={ptsql} alt="Postgresql" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1200" src={reac} alt="React" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1400" src={git} alt="Git" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1600" src={html} alt="HTML" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400" src={bash} alt="Bash" /> </Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="600" src={js} alt="Javascript" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="800" src={py} alt="Python" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000" src={ptsql} alt="Postgresql" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1200" src={reac} alt="React" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1400" src={git} alt="Git" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1600" src={html} alt="HTML" /></Col>
                     <h3 data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000" >Diseño</h3>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400" src={ds} alt="3ds Max" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="600" src={boot} alt="Bootstrap" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="800" src={css} alt="CSS" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000" src={photo} alt="PhotoShop" /></Col>
-                      <Col sm><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1200" src={figma} alt="Figma" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400" src={ds} alt="3ds Max" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="600" src={boot} alt="Bootstrap" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="800" src={css} alt="CSS" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1000" src={photo} alt="PhotoShop" /></Col>
+                      <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="1200" src={figma} alt="Figma" /></Col>
 
                   </Row>
                 </Col>
