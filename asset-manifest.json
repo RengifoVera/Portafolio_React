@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portafolio_React/static/css/main.661fd6c8.css",
+    "main.css": "/Portafolio_React/static/css/main.1d9d993d.css",
     "main.js": "/Portafolio_React/static/js/main.128aca62.js",
     "static/media/SFProDisplay-Medium.ttf": "/Portafolio_React/static/media/SFProDisplay-Medium.c9c3d293a6774a48ccf9.ttf",
     "static/media/Sfprodisplay.ttf": "/Portafolio_React/static/media/Sfprodisplay.cf8cf81ca91eb11f0a30.ttf",
@@ -18,11 +18,11 @@
     "static/media/bash.svg": "/Portafolio_React/static/media/bash.d96373de90ae7f1a72d8e69a68a5eb37.svg",
     "index.html": "/Portafolio_React/index.html",
     "static/media/figma.svg": "/Portafolio_React/static/media/figma.25abb591c3b89b3fa15743b91482f4a6.svg",
-    "main.661fd6c8.css.map": "/Portafolio_React/static/css/main.661fd6c8.css.map",
+    "main.1d9d993d.css.map": "/Portafolio_React/static/css/main.1d9d993d.css.map",
     "main.128aca62.js.map": "/Portafolio_React/static/js/main.128aca62.js.map"
   },
   "entrypoints": [
-    "static/css/main.661fd6c8.css",
+    "static/css/main.1d9d993d.css",
     "static/js/main.128aca62.js"
   ]
 }
