@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local('SF Pro Display'),url(../fuentes/Sfprodisplay.ttf);
+}
+.color-menu{
+    background-color: #F2E816;
+}
+body{
+    overflow-x: hidden;
+}
+
+.titulos{
+    font-weight: 600;
+    font-family:'SF Pro Display' ;
+
+}
+

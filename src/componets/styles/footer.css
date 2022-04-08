@@ -1,0 +1,26 @@
+.footer{
+    margin-top: 100px;
+    background-color: #212529;
+    font-family: 'SF Pro Display';
+    color: white;
+    
+}
+
+.footer ul {
+    text-align:'center';
+    list-style: none;
+    padding-top: 50px;
+    text-align: center;
+}
+.footer li a {
+    text-decoration: none;
+    font-size: 13px;
+    color:white;
+}
+.footer h5 {
+    font-size: 18px;
+}
+.info {
+    margin-top: 50px;
+    text-align: center;
+}

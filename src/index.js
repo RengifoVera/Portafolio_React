@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Menu} from "./componets/Menu";
+import { Inicio } from "./componets/Inicio";
+import { SobreMi } from "./componets/SobreMi";
+import { Proyect } from './componets/Proyect';
+import {Contacto}  from './componets/Contacto';
+import { Footer } from "./componets/Footer";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<Menu />,document.getElementById("nav"));
+ReactDOM.render(<Footer />,document.getElementById("footer"));
+ReactDOM.render(<Inicio /> ,document.getElementById("inicio"));
+ReactDOM.render(<SobreMi />,document.getElementById("sobreMi"));
+ReactDOM.render(<Proyect />,document.getElementById("proyectos"));
+ReactDOM.render(<Contacto />,document.getElementById("contacto"));
