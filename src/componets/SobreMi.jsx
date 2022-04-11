@@ -31,7 +31,7 @@ export function SobreMi() {
 
                 <Col md="auto" className='text'>                  
                    <h1 data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400"> Sobre Mi</h1>
-                  <p data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease"  data-aos-delay="600"> Desarrollador Frontend junior pero mis ganas de aprender y hacer bien mi trabajo son cosas que me motivan cada día para ser mejor y amar lo que hago. <br />Mis conocimientos de programación y desarrollo todavía son limitadas pero mi ambicion de aprender y superarme cada dias son mas grandes</p>
+                  <p data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease"  data-aos-delay="600"> Soy desarrollador web mi inicio en en la programacion inicio en el 2017 al empezar mis estudios universitarios.<br /> Durante el 2020 me sumergi en la formacion autodidacta ampliando mi conocimiento utilizando todos los recursos disponibles en la web. </p>
                   <Button data-aos="fade-up" data-aos-duration="300" data-aos-easing="ease"  data-aos-delay="800" href={CV} target="_blank" rel="noopener noreferrer" download="CV-JhonRengifo.pdf" variant="outline-dark"
   
                   >Descargar CV</Button>
