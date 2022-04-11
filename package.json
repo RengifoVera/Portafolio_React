@@ -36,6 +36,7 @@
     "formik": "^2.2.9",
     "fs-extra": "^10.0.0",
     "gsap": "^3.9.1",
+    "hint.css": "^2.7.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",

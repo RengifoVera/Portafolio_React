@@ -5,6 +5,7 @@
     width: 130px;
     margin-top: 50px;
     border-radius: 22px;
+    cursor: pointer;
 }
 .show_info h5 {
     font-family: 'SF Pro Display';
