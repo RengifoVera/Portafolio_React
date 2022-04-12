@@ -1,5 +1,5 @@
 {
-  "homepage": "https://RengifoVera.github.io",
+  "homepage": "https://rengifovera.github.io",
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
@@ -35,6 +35,7 @@
     "file-loader": "^6.2.0",
     "formik": "^2.2.9",
     "fs-extra": "^10.0.0",
+    "gh-pages": "^3.2.3",
     "gsap": "^3.9.1",
     "hint.css": "^2.7.0",
     "html-webpack-plugin": "^5.5.0",
