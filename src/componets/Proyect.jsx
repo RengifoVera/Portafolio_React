@@ -1,7 +1,7 @@
 import React ,{useEffect} from 'react'
 import {Row,Col,Container} from 'react-bootstrap';
 import AOS from 'aos';
-import pokedex from './img/pokedex.png'
+import pokedex from './img/pokedex.jpg'
 
 
 import "./styles/SobreMi.css";
@@ -14,19 +14,22 @@ export function Proyect() {
   
   return (
       <div className='back-color'> 
-        <Container>
+      <Container>
           <Row className="justify-content-md-center">
-            
-          <h1 data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease" className='text' data-aos-delay="1000">Proyectos</h1>
-                <Col md="auto" className='text img-card'>                  
-                  <Row>
-                    <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease"  data-aos-delay="700" src={pokedex} alt="PhotoShop" /></Col>
+
+                <Col md="auto" >                  
+                   <h1  className='text' data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease"  data-aos-delay="400">Proyectos</h1>
+                  <Row className='img-card'>
+                    <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease"  data-aos-delay="800" src={pokedex} alt="Pokedex" /> 
+                      <span><h6>Pokedex <p>Es una enciclopedia electrónica portátilque los entrenadores Pokémon llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokémon vistas y capturadas durante su viaje como entrenadores.</p></h6> </span>
+                      </Col>
                     <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease"  data-aos-delay="800" src={pokedex} alt="Figma" /></Col>
                     <Col xs={6} md={4}><img data-aos="fade-up" data-aos-duration="400" data-aos-easing="ease"  data-aos-delay="800" src={pokedex} alt="Figma" /></Col>
                   </Row>
                 </Col>
           </Row>
         </Container>
+        
       </div>
   )
 }
