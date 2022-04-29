@@ -1,40 +1,66 @@
-import React from 'react'
-import './styles/Menu.css'
-import {faLinkedin,faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDragon} from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+import "../Styles/styles.css";
+import {
+  faDAndD,
+  faGitAlt,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {Navbar , Container,Nav} from 'react-bootstrap'
-
-
-
-export  function Menu() {
-
-  const logo = <FontAwesomeIcon icon={faDragon} />
-
-  const link = <FontAwesomeIcon icon={faLinkedin} />
-  const git = <FontAwesomeIcon icon={faGithub} />
-
-
-  return (
-      <> 
-           <Navbar collapseOnSelect expand="lg"  className='color-menu'>
-            <Container>
-            <Navbar.Brand className='titulos' href="#home">{logo} Jhon Rengifo</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto titulos" variant="light" >
-                  <Nav.Link href="#sobreMi">  Sobre Mi</Nav.Link>
-                  <Nav.Link href="#proyectos">  Proyectos</Nav.Link>
-                  <Nav.Link href='#contacto'>Contacto</Nav.Link>
-              </Nav>
-              <Nav className='titulos left'>
-                <Nav.Link href="https://www.linkedin.com/in/jhon-rengifo-722273217/" target="_blank">{link} Linkedin</Nav.Link>
-                <Nav.Link href="https://github.com/RengifoVera" target="_blank">{git} Github</Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-            </Container>
-          </Navbar>
-      </>
+import "bootstrap/dist/css/bootstrap.min.css";
+export function Menu() {
+  const dragon = (
+    <FontAwesomeIcon className="icon-styles" style={{color:'#C20114'}}icon={faDAndD}></FontAwesomeIcon>
   );
+  const git = (
+    <FontAwesomeIcon className="icon-styles" icon={faGitAlt}></FontAwesomeIcon>
+  );
+  const linked = (
+    <FontAwesomeIcon
+      className="icon-styles"
+      icon={faLinkedinIn}
+    ></FontAwesomeIcon>
+  );
+  const twitter = (
+    <FontAwesomeIcon className="icon-styles" icon={faTwitter}></FontAwesomeIcon>
+  );
+  const style = {backdropFilter:'blur(3px)',FontWeight: "200" };
+  return (
+    <> 
+      <Navbar fixed="top"  expand="lg"  variant="dark" style={style} >
+        <Container fluid className="text" >
+          <Navbar.Brand href="#home">{dragon} JhonR</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" >
+            <Nav className="me-auto" >
+              <Nav.Link href="#features">Inicio</Nav.Link>
+              <Nav.Link href="#about">Sobre Mi</Nav.Link>
+              <Nav.Link href="#features">Proyectos</Nav.Link>
+              <Nav.Link href="#pricing">Contacto</Nav.Link>
+            </Nav>
+            <hr className="hr-text"/>
+            <Nav>
+              <div className="social-media">
+                <li>
+                  <Nav.Link href="#deets">{git}</Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href="#deets">{twitter}</Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link href="#memes">{linked}</Nav.Link>
+                </li>
+              </div>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+    </>
+  );
+
 }
 
+
+ 

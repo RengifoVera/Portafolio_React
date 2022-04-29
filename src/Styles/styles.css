@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: local("SF Pro Display"), url(../fuentes/Sfprodisplay.ttf);
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: local("SF Pro Display Medium"), url(../fuentes/SFProDisplay-Medium.ttf);
+}
+body{
+  background-color: #0c120c;
+}
+.text {
+  font-family: "SF Pro Display";
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #c7d6d5;
+}
+
+.content {
+  display: block;
+  padding-top: 100px;
+  height: 100vh;
+}
+.content h1 {
+  font-family: "SF Pro Display Medium";
+  font-size: 25px;
+  text-align: center;
+}
+#arrow {
+  font-size: 30px;
+}
+.icon-styles {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hr-text {
+  border: 0;
+  height: 4px;
+  margin-top: 20px;
+  background-image: linear-gradient(to left, #fff, red, #fff);
+  text-align: center;
+}
+
+.social-media li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px 0px 0px;
+}
+
+.content-home {
+  height: 100vh;
+  background-color: #0c120c;
+}
+
+.home h1 {
+  font-size: 40px;
+  font-family: "SF Pro Display Medium";
+}
+
+#title {
+  position: absolute;
+  font-size: 50px;
+  left: 50%;
+  top: 50%;
+  color: #c20114;
+  transform: translate(-50%, -250%);
+}
+#subtitle {
+  position: absolute;
+  font-size: 30px;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#arrow a {
+  position: absolute;
+  font-size: 40px;
+  left: 50%;
+  text-align: center;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  animation: arrow-down 1s infinite;
+  transition: ease-in 3s;
+  text-decoration: none;
+  color: #c20114;
+}
+/* SECTION ABOUT */
+.section-about h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 7%;
+  color: #c20114;
+  font-family: "SF Pro Display Medium";
+}
+.section-about h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 150%;
+  color: #c20114;
+  font-family: "SF Pro Display Medium";
+}
+
+.section-about p {
+  position: absolute;
+  margin: 13% 5% 0 5%;
+  text-align: justify;
+  font-size: 20px;
+}
+/* SECTION  TALENT */
+
+.talent {
+  width:70%;  
+  height: 240px;
+  margin:20px auto;  
+  overflow: hidden;   
+  background-color: #0c120c;
+  position: relative;
+  margin-top:35%;
+}
+.talent ul {
+  display: table-cell;
+}
+.talent li {
+  display: table-cell;
+}
+
+.talent ul li img {
+  width: 150px;
+  height: 160px;
+  position: relative;
+  margin-left: 50px;
+  left: 50%;
+  transform: translate(-50%,20%);
+}
+
+.talent h1 {
+  font-family: 'SF Pro Display Medium';
+  color: #c20114;
+}
+
+.talent .ul1{  
+  animation:scroll 50s linear infinite;  
+} 
+
+.talent ul {
+  width:4000px;  
+  left:0;  
+  top:0;  
+  position: absolute;  
+}
+.talent ul:hover {
+  animation-play-state: paused;
+} 
+.talent ul li{  
+  float:left;  
+}  
+/* MOBILE  */
+@media only screen and (max-width: 768px) {
+  #title {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 50%;
+    color: #c20114;
+    transform: translate(-50%, -250%);
+  }
+  #subtitle {
+    position: absolute;
+    font-size: 30px;
+    left: 50%;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #arrow a {
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    text-align: center;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    animation: arrow-down 1s infinite;
+    transition: ease-in 3s;
+    text-decoration: none;
+    color: #c20114;
+  }
+  /* SECTION ABOUT ME */
+  .section-about{
+    height: 100px;
+  }
+  .section-about h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30%;
+    color: #c20114;
+    font-family: "SF Pro Display Medium";
+  }
+  .section-about h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 150%;
+    color: #c20114;
+    font-family: "SF Pro Display Medium";
+  }
+  .section-about p {
+    position: absolute;
+    margin: 45% 5% 0 5%;
+    text-align: justify;
+    font-size: 20px;
+  }
+  /* SECTION TALENT  */
+
+  .talent{
+    width: 80%;
+    height:150px;
+    border: 1px solid red;
+    display: block;
+    position: absolute;
+    margin-top:120%;
+    left: 10%;
+  }
+  .talent ul li img {
+    width: 80px;
+    height: 90px;
+    position: relative;
+    margin-left: 50px;
+    left: 50%;
+    transform: translate(-50%,50%);
+  }
+
+  /* SECTION PROYECTS */
+
+  .proyects{
+    position: relative;
+    border: 1px solid rebeccapurple;
+  }
+
+}
+
+@media only screen and (max-width:480px){
+  .talent{
+    width: 80%;
+    height:150px;
+    border: 1px solid red;
+    display: block;
+    position: absolute;
+    margin-top:190%;
+    left: 10%;
+  }
+  .talent ul li img {
+    width: 80px;
+    height: 90px;
+    position: relative;
+    margin-left: 50px;
+    left: 50%;
+    transform: translate(-50%,50%);
+  }
+  #about{
+    height: 1000px;
+    border: 1px solid red;
+  }
+  .content-home{
+    height: 100vh;
+  }
+
+  #title {
+    font-size: 3em;
+  }
+  #subtitle {
+    font-size: 1.5em;
+  }
+  #arrow {
+    font-size: 1.5em;
+  }
+  
+}
+
+@media only screen and (max-width:320px){
+  .talent{
+    width: 80%;
+    height:150px;
+    border: 1px solid red;
+    display: block;
+    position: absolute;
+    margin-top:130%;
+    left: 10%;
+  }
+  .talent ul li img {
+    width: 80px;
+    height: 90px;
+    position: relative;
+    margin-left: 50px;
+    left: 50%;
+    transform: translate(-50%,50%);
+  }
+  .talent{
+    width: 80%;
+    height:150px;
+    border: 1px solid red;
+    display: block;
+    position: absolute;
+    margin-top:120%;
+    left: 10%;
+  }
+  #about{
+    height: 1000px;
+    border: 1px solid red;
+  }
+  .content-home{
+    height: 100vh;
+  }
+
+  #title {
+    font-size: 3em;
+  }
+  #subtitle {
+    font-size: 1.5em;
+  }
+  #arrow {
+    font-size: 1.5em;
+  }
+  #about{
+    font-size: 1px;
+  }
+
+  
+}
+@keyframes arrow-down {
+  0% {
+    top: 70%;
+  }
+  50% {
+    top: 71%;
+  }
+}
+
+@keyframes scroll{  
+  from{  
+      left: 0;
+  }  
+  to{  
+      left:calc(-1980px * 1/2) ;
+  }  
+}   
