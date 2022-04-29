@@ -77,9 +77,28 @@ export function Sites() {
             </Col>
           </Row>
         </Container>
-        {/* <section className="proyects">
-            <h1>Proyects</h1>
-        </section> */}
+      </section>
+      
+      <section className="section-proyects text">
+        <h1>Proyects</h1>
+        <Container>
+          <Row>
+            <Col>
+              <div className="card-1 cards-colors">
+                <div className="card-title">
+                  <h6>TARJETA 1</h6>
+                </div>
+                <div className="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, modi. Dolore id labore facere similique. Officia ex fugit sed quos? Labore impedit sed fuga possimus eum quisquam sint modi architecto.</p>
+                </div>
+                <div className="card-footer">
+                  <h6>footer</h6>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          
+        </Container>
       </section>
     </>
   );

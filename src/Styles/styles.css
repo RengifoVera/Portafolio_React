@@ -121,7 +121,7 @@ body{
 /* SECTION  TALENT */
 
 .talent {
-  width:70%;  
+  width:90%;  
   height: 240px;
   margin:20px auto;  
   overflow: hidden;   
@@ -142,7 +142,8 @@ body{
   position: relative;
   margin-left: 50px;
   left: 50%;
-  transform: translate(-50%,20%);
+  transform: translate(-50%,50%);
+
 }
 
 .talent h1 {
@@ -166,179 +167,38 @@ body{
 .talent ul li{  
   float:left;  
 }  
+
+/* SECTION PROYECTS */
+
+.section-proyects{
+  height: 100vh;
+  background-color: #0c120c;
+}
+
+.section-proyects  h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 7%;
+  color: #c20114;
+  font-family: "SF Pro Display Medium";
+}
+ /* SECTION PROYECTS  CARDS*/
+
+.cards-colors{
+  border: 1px solid salmon;
+  height: 300px;
+  width: 250px;
+  transform: translateY(80%);
+
+}
+
+.cards-colors:hover{
+  box-shadow: -1px 1px 15px 5px #C20114;
+}
+
 /* MOBILE  */
-@media only screen and (max-width: 768px) {
-  #title {
-    position: absolute;
-    font-size: 50px;
-    left: 50%;
-    top: 50%;
-    color: #c20114;
-    transform: translate(-50%, -250%);
-  }
-  #subtitle {
-    position: absolute;
-    font-size: 30px;
-    left: 50%;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
-  #arrow a {
-    position: absolute;
-    font-size: 40px;
-    left: 50%;
-    text-align: center;
-    top: 70%;
-    transform: translate(-50%, -50%);
-    animation: arrow-down 1s infinite;
-    transition: ease-in 3s;
-    text-decoration: none;
-    color: #c20114;
-  }
-  /* SECTION ABOUT ME */
-  .section-about{
-    height: 100px;
-  }
-  .section-about h1 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 30%;
-    color: #c20114;
-    font-family: "SF Pro Display Medium";
-  }
-  .section-about h2 {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 150%;
-    color: #c20114;
-    font-family: "SF Pro Display Medium";
-  }
-  .section-about p {
-    position: absolute;
-    margin: 45% 5% 0 5%;
-    text-align: justify;
-    font-size: 20px;
-  }
-  /* SECTION TALENT  */
 
-  .talent{
-    width: 80%;
-    height:150px;
-    border: 1px solid red;
-    display: block;
-    position: absolute;
-    margin-top:120%;
-    left: 10%;
-  }
-  .talent ul li img {
-    width: 80px;
-    height: 90px;
-    position: relative;
-    margin-left: 50px;
-    left: 50%;
-    transform: translate(-50%,50%);
-  }
-
-  /* SECTION PROYECTS */
-
-  .proyects{
-    position: relative;
-    border: 1px solid rebeccapurple;
-  }
-
-}
-
-@media only screen and (max-width:480px){
-  .talent{
-    width: 80%;
-    height:150px;
-    border: 1px solid red;
-    display: block;
-    position: absolute;
-    margin-top:190%;
-    left: 10%;
-  }
-  .talent ul li img {
-    width: 80px;
-    height: 90px;
-    position: relative;
-    margin-left: 50px;
-    left: 50%;
-    transform: translate(-50%,50%);
-  }
-  #about{
-    height: 1000px;
-    border: 1px solid red;
-  }
-  .content-home{
-    height: 100vh;
-  }
-
-  #title {
-    font-size: 3em;
-  }
-  #subtitle {
-    font-size: 1.5em;
-  }
-  #arrow {
-    font-size: 1.5em;
-  }
-  
-}
-
-@media only screen and (max-width:320px){
-  .talent{
-    width: 80%;
-    height:150px;
-    border: 1px solid red;
-    display: block;
-    position: absolute;
-    margin-top:130%;
-    left: 10%;
-  }
-  .talent ul li img {
-    width: 80px;
-    height: 90px;
-    position: relative;
-    margin-left: 50px;
-    left: 50%;
-    transform: translate(-50%,50%);
-  }
-  .talent{
-    width: 80%;
-    height:150px;
-    border: 1px solid red;
-    display: block;
-    position: absolute;
-    margin-top:120%;
-    left: 10%;
-  }
-  #about{
-    height: 1000px;
-    border: 1px solid red;
-  }
-  .content-home{
-    height: 100vh;
-  }
-
-  #title {
-    font-size: 3em;
-  }
-  #subtitle {
-    font-size: 1.5em;
-  }
-  #arrow {
-    font-size: 1.5em;
-  }
-  #about{
-    font-size: 1px;
-  }
-
-  
-}
 @keyframes arrow-down {
   0% {
     top: 70%;
@@ -353,6 +213,6 @@ body{
       left: 0;
   }  
   to{  
-      left:calc(-1980px * 1/2) ;
+      left:calc(-2980px * 1/2) ;
   }  
 }   
